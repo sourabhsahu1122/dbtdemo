@@ -1,0 +1,3 @@
+SELECT * from 
+AZURELIB.RAW.SRC_LEADS
+where PRODUCT_TYPE NOT IN ('Google Meet')

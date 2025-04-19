@@ -1,3 +1,6 @@
+{{
+    config(materialized='table')
+}}
 
 WITH genai_leads AS (
 
