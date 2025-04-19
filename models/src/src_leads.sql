@@ -1,0 +1,14 @@
+
+WITH genai_leads AS (
+
+    SELECT * FROM AZURELIB.RAW.GENAI
+)
+
+SELECT MEETING_CODE,
+ACTOR,
+ACTOR_NAME,
+CLIENT_TYPE,
+PRODUCT_TYPE,
+"Duration (seconds)" AS Duration,
+DATE 
+FROM genai_leads
